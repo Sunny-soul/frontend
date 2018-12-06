@@ -1,0 +1,149 @@
+.container {
+	background: black;
+	width: 834px;
+	height: 605px;
+	display: block;
+	padding: 1px;
+}
+.block1 {
+	float: left;
+	margin: 1px;
+}
+.block2 {
+	margin: 1px;
+}
+#start{
+	background: grey;
+	width: 415px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+#end {
+	background: grey;
+	width: 415px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+#center {
+	background: grey;
+	width: 415px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+#stretch {
+	background: grey;
+	width: 415px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+}
+#baseline {
+	background: grey;
+	width: 832px;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+.first1 {
+	display: block;
+	height: 120px;
+	width: 200px;
+	background: #fecbcb;
+	margin: 2px;
+}
+.second2 {
+	display: block;
+	height: 90px;
+	width: 160px;
+	background: #cbfecc;
+	margin: 2px;
+}
+.third3 {
+	display: block;
+	height: 120px;
+	width: 280px;
+	background:	#ccccfe;
+	margin: 2px;
+}
+.fourth4 {
+	display: block;
+	height: 196px;
+	width: 220px;
+	background: #cbfefe;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+.first {
+	display: block;
+	height: 120px;
+	width: 100px;
+	background: #fecbcb;
+	margin: 2px;
+}
+.second{
+	display: block;
+	height: 90px;
+	width: 80px;
+	background: #cbfecc;
+	margin: 2px;
+}
+.third {
+	display: block;
+	height: 120px;
+	width: 140px;
+	background:	#ccccfe;
+	margin: 2px;
+}
+
+.fourth {
+	display: block;
+	height: 196px;
+	width: 110px;
+	background: #cbfefe;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+
+#stretch .first {
+	display: block;
+	height: auto;
+	width: 100px;
+	background: #fecbcb;
+	margin: 2px;
+}
+#stretch .second{
+	display: block;
+	height: auto;
+	width: 80px;
+	background: #cbfecc;
+	margin: 2px;
+}
+#stretch .third {
+	display: block;
+	height: auto;
+	width: 140px;
+	background:	#ccccfe;
+	margin: 2px;
+}
+
+#stretch .fourth {
+	display: block;
+	height: auto;
+	width: 110px;
+	background: #cbfefe;
+	margin: 2px;
+	margin-bottom: 2px;
+}
+p {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+}
+

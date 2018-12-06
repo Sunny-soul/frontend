@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/calculator.css">
+</head>
+
+<body>
+<div class="calculator">
+    <!-- CALCULATOR FORM -->
+    <form class="calculator_form">
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row">
+            <input class="calculator_display" id="display" type="text" disabled />
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row">
+            <button type="button" value="<--" class="calc_key calc_backspace" onclick='backspace()'>&larr;</button>
+            <button type="button" value="c" class="calc_key calc_clear" onclick='addtoscreen("C")'>C</button>
+            <button type="button" value="ce" class="calc_key calc_power" onclick='cleardisplay()'>CE</button>
+            <button type="button" value="+-" class="calc_key calc_button" onclick='plusmn()'>&plusmn;</button>
+            <button type="button" value="v-" class="calc_key calculator_button" onclick='power(0.5)'>&radic;</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row">
+            <button type="button" value="7" class="calc_key calc_button" onclick='addtoscreen("7")'>7</button>
+            <button type="button" value="8" class="calc_key calc_button" onclick='addtoscreen("8")'>8</button>
+            <button type="button" value="9" class="calc_key calc_button" onclick='addtoscreen("9")'>9</button>
+            <button type="button" value="/" class="calc_key calc_button" onclick='addtoscreen("/")'>/</button>
+            <button type="button" value="%" class="calc_key calc_button" onclick='addtoscreen("%")'>%</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row">
+            <button type="button" value="4" class="calc_key calc_button" onclick='addtoscreen("4")'>4</button>
+            <button type="button" value="5" class="calc_key calc_button" onclick='addtoscreen("5")'>5</button>
+            <button type="button" value="6" class="calc_key calc_button" onclick='addtoscreen("6")'>6</button>
+            <button type="button" value="*" class="calc_key calc_button" onclick='addtoscreen("*")'>*</button>
+            <button type="button" value="1/x" class="calc_key calc_button" onclick=''>1/x</button>
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row1">
+            <button type="button" value="1" class="calc_key calc_button" onclick='addtoscreen("1")'>1</button>
+            <button type="button" value="2" class="calc_key calc_button" onclick='addtoscreen("2")'>2</button>
+            <button type="button" value="3" class="calc_key calc_button" onclick='addtoscreen("3")'>3</button>
+            <button type="button" value="-" class="calc_key calc_button" onclick='addtoscreen("-")'>-</button>
+            
+
+        </div>
+        <!-- CALCULATOR ROW -->
+        <div class="calculator_row1">
+            <button type="button" value="0" class="calc_key calc_key-equal" onclick='addtoscreen("0")'>0</button>
+            <button type="button" value="." class="calc_key calc_button" onclick='addtoscreen(".")'>.</button>
+            <button type="button" value="+" class="calc_key calc_button" onclick='addtoscreen("+")'>+</button>
+        </div>
+        <div>
+        	<button type="button" value="=" class="calc_key calc_key-result" onclick='answer()'>=</button>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="js/calculator.js"></script>
+</body>
+</html>

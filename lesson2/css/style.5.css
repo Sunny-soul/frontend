@@ -1,0 +1,42 @@
+body {
+	background-color: rgb(25, 21, 8);
+}
+.qw {
+	margin: auto;
+	width: 960px;
+	height: 480px;
+	border-style: solid;
+	border-color: white;
+	background: rgb(25, 47, 57);
+	border-width: 5px;
+}
+.as {
+	float: left;
+	width: 480px;
+	height: 100%;
+}
+.zx {
+	float: left;
+	width: 236px;
+	height:236px;
+	border-width: 2px;
+	border-color: white;
+	border-style: solid;
+	display: table;
+}
+.er {
+	float: left;
+	width: 156px;
+	height: 156px;
+	border-color: white;
+	border-width: 2px;
+	border-style: solid;
+	display: table;
+}
+span {
+	font-size: 75px;
+	color: white;
+	text-align: right;
+	vertical-align: bottom;
+	display: table-cell;
+}

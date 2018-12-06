@@ -1,0 +1,58 @@
+body {
+	background: black;
+
+}
+.container {
+	width: 960px;
+	height: 500px;
+	position: absolute;
+}
+.h1 {
+	position: relative;
+}
+.w940, .w540, .w380, .w960, .w220, .w220i, .w300, .w300i {
+	border: 1px solid;
+	text-align:  center;
+	height: 40px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.w940 {
+	width: 936px;
+	margin-left: 10px;
+}
+.w540 {
+	width: 536px;
+	float: left;
+	margin-left: 10px;
+}
+.w380 {
+	width: 378px;
+	float: left;
+	margin-left: 20px;
+}
+.w960 {
+	width: 936px;
+	float: left;
+	margin-left: 10px;
+}
+.w220 {
+	width: 217px;
+	float: left;
+	margin-left: 10px;
+}
+.w220i {
+	width: 217px;
+	float: left;
+	margin-left: 20px;
+}
+.w300 {
+	width: 297px;
+	float: left;
+	margin-left: 10px;
+}
+.w300i {
+	width: 297px;
+	float: left;
+	margin-left: 20px;
+}

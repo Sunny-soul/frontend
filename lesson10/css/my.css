@@ -1,0 +1,29 @@
+.nav-wrapper {
+	background-color: #373a29;
+}
+#naw-mobile ul {
+	margin-right: 10px;
+}
+nav .brand-logo {
+	padding-left: 15px;
+}
+.brand-logo img{
+	height: 50px;
+	width: 50px;
+}
+.about img {
+	margin-top: 15px;
+    height: 230px;
+    width: 183px;
+}
+
+h1 {
+	color: #373a29;
+}
+.profile {
+	float: left;
+}
+.about {
+	margin-top: 0;
+	margin-right: 15px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	function getResult(a,b,op) {
+		var res = document.forms["testform"].flag.value="false";
+		console.log (res);
+		if (op=="+") {
+			return add(a,b);
+		} 
+		else if (op=="-") {
+			return sub(a,b);
+		}
+		else {
+			return 0;
+		}
+	}
+	function add (a,b) {
+		var tmp = parseInt(a)+parseInt(b);
+		console.log (tmp);
+		return tmp;
+	}
+	function sub (a,b) {
+		var tmp = parseInt(a)-parseInt(b);
+		console.log (tmp);
+		return tmp;
+	}
+	function operation(oper){
+		document.forms["testform"].op.value=oper; 
+		document.forms["testform"].tmp.value=document.forms["testform"].res.value;
+		document.forms["testform"].res.value="";
+		document.forms["testform"].flag.value="true";
+		
+		console.log (document.forms["testform"].flag.value);
+
+	}
+</script>
+<body>
+	<form name="testform">
+	<input type="text" name="res" value="0">
+	<input type="button" name="btn1" value="1" onclick="res.value=1">
+	<input type="button" name="btn2" value="2" onclick="res.value=2">
+	<input type="button" name="btnplus" value="+" onclick="operation(btnplus.value)">
+	<input type="button" name="btnmin" value="-" onclick="operation(btnmin.value)">
+	<input type="button" name="btnmul" value="*" onclick="operation(btnmul.value)">
+	<input type="button" name="btndiv" value="/" onclick="operation(btndiv.value)">
+
+	<input type="button" name="btnres" value="=" onclick="return res.value=getResult(tmp.value,res.value,op.value)">
+	<input type="hidden" name="op" value="">
+	<input type="hidden" name="tmp" value="0">
+	<input type="hidden" name="flag" value="false">	
+	</form>
+</body>
+</html>

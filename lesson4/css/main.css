@@ -1,0 +1,43 @@
+.container {
+	width: 962px;
+	border: 1px solid;
+}
+.row1 {
+	height: 40px;
+	width: 940px;
+	border: 1px solid;
+	margin: 10px;
+}
+.row31 {
+	height: 40px;
+	width: 540px;
+	border: 1px solid;
+	margin: 10px;
+	margin-right: 5px;
+}
+.row32 {
+	height: 40px;
+	width: 380px;
+	border: 1px solid;
+	margin: 10px;
+	margin-left: 5px; 
+}
+.row4 {
+	height: 40px;
+	width: 960px;
+	border: 1px solid;
+	margin: 10px;
+}
+.row5 {
+	height: 40px;
+	width: 220px;
+	border: 1px solid;
+	margin: 10px;
+}
+.row7 {
+	height: 40px;
+	width: 300px;
+	border: 1px solid;
+	margin: 10px;
+
+}
